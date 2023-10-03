@@ -1,0 +1,60 @@
+.description {
+  text-align: center;
+  font-size: 19px;
+  padding: 0 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.links {
+  width: 300px;
+  margin: 5px auto;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+
+  font-size: 17px;
+}
+
+.project_container {
+  width: 500px;
+  margin: 20px 0;
+}
+
+.projects_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project_container h3 {
+  text-align: center;
+}
+
+.project_title {
+  text-align: center;
+}
+
+.project_description {
+  text-align: center;
+}
+
+.github_link_container {
+  display: flex;
+  justify-content: center;
+}
+
+.github_link_container img {
+  width: 20px;
+}
+
+.github_links,
+.website_links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
