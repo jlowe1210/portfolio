@@ -23,7 +23,7 @@
   <div class="projects_container">
     <div class="project_container" *ngFor="let project of projects">
       <h2 class="project_title">{{ project.name }}</h2>
-      <img [src]="project.imgSrc" width="500" />
+      <img [src]="project.imgSrc" class="project_image" />
       <p class="project_description">
         {{ project.description }}
       </p>
